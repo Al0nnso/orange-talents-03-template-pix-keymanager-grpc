@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.zup.ChavePixKeymanagerGrpcTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-04T05:36:18" hostname="Afonsitos-Macbook.local" time="0.45">
+  <properties/>
+  <testcase name="testCadastroPix()" classname="br.com.zup.ChavePixKeymanagerGrpcTest" time="0.45"/>
+  <system-out><![CDATA[?[36m02:36:07.329?[0;39m ?[1;30m[Test worker]?[0;39m ?[34mINFO ?[0;39m ?[35mi.m.context.env.DefaultEnvironment?[0;39m - Established active environments: [test]
+?[36m02:36:11.423?[0;39m ?[1;30m[Test worker]?[0;39m ?[34mINFO ?[0;39m ?[35mo.h.validator.internal.util.Version?[0;39m - HV000001: Hibernate Validator 6.1.6.Final
+?[36m02:36:12.605?[0;39m ?[1;30m[Test worker]?[0;39m ?[34mINFO ?[0;39m ?[35mcom.zaxxer.hikari.HikariDataSource?[0;39m - HikariPool-1 - Starting...
+?[36m02:36:13.495?[0;39m ?[1;30m[Test worker]?[0;39m ?[34mINFO ?[0;39m ?[35mcom.zaxxer.hikari.HikariDataSource?[0;39m - HikariPool-1 - Start completed.
+?[36m02:36:13.607?[0;39m ?[1;30m[Test worker]?[0;39m ?[34mINFO ?[0;39m ?[35morg.hibernate.Version?[0;39m - HHH000412: Hibernate ORM core version 5.4.24.Final
+?[36m02:36:14.396?[0;39m ?[1;30m[Test worker]?[0;39m ?[34mINFO ?[0;39m ?[35mo.h.annotations.common.Version?[0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+?[36m02:36:15.013?[0;39m ?[1;30m[Test worker]?[0;39m ?[34mINFO ?[0;39m ?[35morg.hibernate.dialect.Dialect?[0;39m - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+?[36m02:36:16.681?[0;39m ?[1;30m[Test worker]?[0;39m ?[34mINFO ?[0;39m ?[35morg.hibernate.tuple.PojoInstantiator?[0;39m - HHH000182: No default (no-argument) constructor for class: br.com.zup.ChavePix (class must be instantiated by Interceptor)
+tipo: EMAIL
+valor: "alonnsoandres@gmail.com"
+conta: POUPANCA
+
+tipo: EMAIL
+valor: "alonnsoandres@gmail.com"
+conta: POUPANCA
+
+?[36m02:36:19.264?[0;39m ?[1;30m[Test worker]?[0;39m ?[34mINFO ?[0;39m ?[35mcom.zaxxer.hikari.HikariDataSource?[0;39m - HikariPool-1 - Shutdown initiated...
+?[36m02:36:19.281?[0;39m ?[1;30m[Test worker]?[0;39m ?[34mINFO ?[0;39m ?[35mcom.zaxxer.hikari.HikariDataSource?[0;39m - HikariPool-1 - Shutdown completed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

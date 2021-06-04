@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "br.com.zup";
+option java_outer_classname = "PixKeymanagerGrpc";
+option objc_class_prefix = "HLW";
+
+package br.com.zup;
+
+service PixService{
+  rpc cadastrar(CadastroRequest) returns (CadastroResponse) {}
+}
+
+enum Key {
+  CPF = 0;
+  TELEFONE = 1;
+  EMAIL = 2;
+  KEY = 3;
+}
+
+enum Conta {
+  CORRENTE = 0;
+  POUPANCA = 1;
+}
+
+message CadastroRequest {
+  Key tipo = 1;
+  string valor = 2;
+  Conta conta = 3;
+}
+
+message CadastroResponse {
+  string id = 1;
+
+}
